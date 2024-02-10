@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width. initial-scale=1.0">
+    <title>Meram Belediyesi Web Site Tasarimi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mukta:wght@500;800&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+       <section class="header">
+        <nav>
+            <a href="index.html"><img src="resimler/logo.svg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="about.html">HAKKIMIZDA</a></li>
+                    <li><a href="course.html">PROJELER</a></li>
+                    <li><a href="iletisim.html">İLETİŞİM</a></li>
+                    <li><a href="mega.html">MEGA</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>BİZİM MERAM İÇİN ÇALIŞIYORUZ</h1>
+        <a href="" class="hero-btn">Daha Fazlasını Öğrenek İçin Bizi Ziyaret Edin</a>
+
+    </div>
+
+    </section>
+
+    <!------Course---->
+
+    <section class="course">
+        <h1>Bizim Meram İçin Yapılan Hizmetler</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam rerum facere dicta quia eum nostrum vitae, iusto aliquam atque eveniet adipisci officiis quaerat illo animi harum, repellat fugit laborum.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Evlilik İşlemleri</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia labore reiciendis adipisci quasi provident expedita, hic nemo quae dignissimos aspernatur. Odit, dicta officiis debitis quam maxime similique nihil doloribus officia!</p>
+            </div>
+            <div class="course-col">
+                <h3>İyi Ki Doğdun Bebek</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium temporibus aspernatur sit exercitationem impedit facilis rerum illo officia a omnis eveniet sequi error porro, iure consectetur excepturi? Dicta, dolores magnam!</p>
+            </div>
+            <div class="course-col">
+                <h3>Ara Buluculuk</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum beatae rerum optio, vero iste laboriosam voluptates quod placeat repudiandae harum est vel recusandae nam ab molestias quidem! Quisquam, voluptatem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projeler">
+        <h1>Tamamlanan Projelerimiz</h1>
+        <h3>Yenice Parkı</h3>
+        <p>YENİCE PARKI 10,336 TOPLAM İNŞAAT ALANI OLUP İÇERİSİNDE ; - KAFEMERAM - SÜS HAVUZLARI -YEŞİL ALANLAR -KAMERİYELER -ÇOCUK OYUN ALANLARI VE FİTNESS GRUPLARI -HIZ DÖNENCESİ -YÜRÜYÜŞ YOLLARI BULUNMAKTADIR.</p>
+
+        <div class="row">
+            <div class="projeler-col">
+                <img src="resimler/yenice.jpg" alt="resim 1">
+                <div class="layer"></div>
+            </div>
+            <div class="projeler-col">
+                <img src="resimler/229A5931_1200.jpg" alt="resim 2">
+                <div class="layer"></div>
+            </div>
+            <div class="projeler-col">
+                <img src="resimler/229A5953_1200.jpg" alt="resim 3">
+                <div class="layer"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projeler">
+        <h3>6 Adet Açık Halı Saha Yapılması</h3>
+        <p>Alpaslan, Çarıklar, Kavak, Hatunsaray, Yeşiltekke ve Aşkan Mahallesine Açık Halı Saha Yapılması</p>
+
+        <div class="row">
+            <div class="projeler-col">
+                <img src="resimler/000.jpg" alt="resim 4">
+                <div class="layer"></div>
+            </div>
+            <div class="projeler-col">
+                <img src="resimler/002_1.jpg" alt="resim 5">
+                <div class="layer"></div>
+            </div>
+            <div class="projeler-col">
+                <img src="resimler/04.jpg" alt="resim 6">
+                <div class="layer"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>Bizim İle İletişime Geçin</h4>
+        <p>Yenişehir Mahallesi Azerbaycan Caddesi No: 5 42010 Meram / KONYA</p>
+        <div class="icons">
+             <i class="fa fa-phone"></i>
+            <p1>444 3 042</p1>
+        </div>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------JavaScript for toggle menu-------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

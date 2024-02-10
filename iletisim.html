@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width. initial-scale=1.0">
+    <title>Meram Belediyesi Web Site Tasarimi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mukta:wght@500;800&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="resimler/logo.svg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="about.html">HAKKIMIZDA</a></li>
+                    <li><a href="course.html">PROJELER</a></li>
+                    <li><a href="iletisim.html">İLETİŞİM</a></li>
+                    <li><a href="mega.html">MEGA</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Bize Ulaşmak İçin</h1>
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.2366305546184!2d32.4718546!3d37.8547533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d085ac90bbbed3%3A0xe5d4bafd609e832c!2sMeram%20Belediyesi!5e0!3m2!1str!2str!4v1707413232570!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+        
+    <section class="bilgiler">
+        <div class="row">
+            <div class="bilgiler-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Yenişehir Mah. Azerbaycan Cad. No: 5</h5>
+                        <p>42010 Meram / KONYA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0332 320 10 00</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>bizimmeram@meram.bel.tr</h5>
+                        
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>E tebigat:</h5>
+                        <p>35846-96487-38597</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>IBAN:</h5>
+                        <p>TR33 0001 2009 5240 0007 0000 02</p>
+                    </span>
+                </div>
+            </div>
+            <div class="bilgiler-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="İsminizi giriniz" required>
+                    <input type="text" name="surname" placeholder="Soyisminizi giriniz" required>
+                    <input type="email" name="email" placeholder="E mail adresini giriniz" required>
+                    <input type="text" name="subject" placeholder="Bize iletmek istediğiniz konuyu yazınız" required>
+                    <textarea rows="8" name="message" placeholder="Mesaj" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Mesajı Gönder</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="footer">
+        <h4>Bizim İle İletişime Geçin</h4>
+        <p>Yenişehir Mahallesi Azerbaycan Caddesi No: 5 42010 Meram / KONYA</p>
+        <div class="icons">
+             <i class="fa fa-phone"></i>
+            <p1>444 3 042</p1>
+        </div>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            
+
+        </div>
+
+    </section>
+
+
